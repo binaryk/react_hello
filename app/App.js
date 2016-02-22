@@ -5,6 +5,5 @@ var routes = require('./config/Routes');
 
 
 ReactDOM.render(
-    <Router>{routes}</Router>,
-    document.getElementById('app')
+    <Router>{routes}</Router>, document.getElementById('app')
 )
