@@ -1,0 +1,21 @@
+{
+  "name": "react_hello",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "binaryk <lupacescueduard@yahoo.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
