@@ -11,4 +11,4 @@ function getUserInfo(username){
 export default function (username){
     return axios.all([getRepos(username), getUserInfo(username)])
         .then((arr) => ({ repos: arr[0].data, bio: arr[1].data }));
-} 
+}
