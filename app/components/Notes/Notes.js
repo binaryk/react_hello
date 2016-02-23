@@ -13,7 +13,7 @@ var Notes = React.createClass({
     console.log(this.props.notes);
     return (
         <div>
-          Notes <br/>
+           <h3>Notes</h3>
           <AddNote username={this.props.username} addNote={this.props.addNote} />
           <NoteList notes={this.props.notes}/>
         </div>
